@@ -253,9 +253,26 @@ git diff HEAD^
 
 Again, git diff has many options, you can read here https://git-scm.com/docs/git-diff or run `git diff --help` or google.
 
+# .gitignore [Extra]
 
+Someetimes, you want some files not to be tracked by the source control. For example
 
+* files with passwords/secrets
+* local settings files that should be defined for each developer
+* build files and directories like `__pycache__` in python, `*.` files in c
+* 3rd party packages like `node_modules`
 
+You can create such a file and just remeber not to add it, but this is very tedious. The solution for such files is to exclude them
+from the version control by adding them to the `.gitignore` file.
+
+* create a new file calles passwords.txt
+```
+echo "key=dsfjskdjfsd" >> passwords.txt
+```
+
+No read about `.gitignore` rules here https://git-scm.com/docs/gitignore and add .gitignore file to exclude the passwords.txt file
+
+**Note** The `.gitignore` file should be added and committed. It is part of the version control.
 
 
 
