@@ -36,6 +36,8 @@ git config --global user.email "your@email.com"
 
 ## Configure Editor
 
+(You probably can skip this for now)
+
 Git sometimes uses the editor to prompt you for questions and editing. For this it used the default editor defined in your environemnt or fallbacks to `vi`.
 You can set the default editor explcitly using the `core.editor` key, e.g.,
 
@@ -43,7 +45,7 @@ You can set the default editor explcitly using the `core.editor` key, e.g.,
 git config --global core.editor nano
 ```
 
-# Create empty repp
+# Create empty repo
 
 We will start with empty folder
 
