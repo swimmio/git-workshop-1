@@ -3,7 +3,7 @@ Git Workshop - Branches
 
 In this step, we will play with the branches and merging. We will continue working with the repository we used until now.
 
-We will create branches, make commit and merge the branches.
+We will create branches, make commits and merge the branches.
 
 # Creating a branch
 
@@ -65,7 +65,7 @@ NOTE: If you would have made changed to `food.txt` it is possible you would have
 
 # Merging branches
 
-## Merge from `master` to `color-list`
+## Merge from `master` into `color-list`
 During development with a team the default branch - master or main - will be updated during the time you working on a side branch.
 So once in a while we should pull the new changes made and merge them to the side-branch to keep the branch updated and ahead.
 
@@ -88,7 +88,7 @@ git merge master
 
 6. Run `git log` and see the history of the branch after the merge.
 
-## Merge from `color-list` to `master`
+## Merge from `color-list` into `master`
 
 Now that the `color-list` is updated with the recent changes from `master` we now want to merge our changes to the `master` branch.
 
@@ -109,7 +109,7 @@ I hope this exercise helped you understand how we switch and merge between branc
 It will make sense even more when working remotely with the `pull` command that is used to merge new changes from the remote branch to the local branch.
 And also the Pull Request which we creating a request that the remote main branch to merge the changes from a side branch.
 
-## further subjects you should explore
+## Further subjects you should explore
 - How to resolve merge conflict
 - `git merge` vs `git rebase`
 - Squash
