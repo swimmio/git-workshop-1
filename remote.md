@@ -7,7 +7,7 @@ We will clone this repository, create a branch, make changes and commit them, pu
 
 ## Cloning the repo
 
-1. Go to this repo https://github.com/talkor/appleseeds-workshop and find clone url (use the HTTPS link).
+1. Go to this repo https://github.com/talkor/appleseeds-workshop and find clone url (use the HTTPS link). You recieved an invite by mail to be a collaborator in this repo, so make sure to accept the invite first.
 
 2. Go to your terminal and run the clone command:
 
