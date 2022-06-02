@@ -41,10 +41,10 @@ git checkout -b <my-branch>
 
 4. OPTIONAL: Open the `CONTRIBUTORS.md` file and add your name to the end of the list of names. Be aware that since other people can edit this file it might create conflicts that you'll need to resolve. 
 
-5. Commit your changes:
+5. Commit your changes, feel free to change the commit message to whatever you think describe best your changes:
 
 ```
-git commit -m "add <my-name> into contributores list"
+git commit -m "add info about <my-name>" 
 ```
 
 ## Push Your Changes To Remote
