@@ -35,9 +35,13 @@ git checkout -b <my-branch>
 
 1. Open the repository folder in an IDE or Text Editor of your choice.
 
-2. Open the `CONTRIBUTORS.md` file and add your name to the end of the list of names.
+2. Create a markdown file with your name, for example: `daniel-smith.md`.
 
-3. Commit your changes:
+3. Write a few things about yourself if you want, for example, your favorite programming language.
+
+4. OPTIONAL: Open the `CONTRIBUTORS.md` file and add your name to the end of the list of names. Be aware that since other people can edit this file it might create conflicts that you'll need to resolve. 
+
+5. Commit your changes:
 
 ```
 git commit -m "add <my-name> into contributores list"
