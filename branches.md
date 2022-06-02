@@ -51,7 +51,7 @@ git checkout master
 2. Look at the files you have in the repo - the state is before the changes you made in the `color-list` branch.
 
 3. Run `git log` 
-`HEAD` is now pointing to the last commit that was maid in the `master` branch. 
+`HEAD` is now pointing to the last commit that was made in the `master` branch. 
 
 4. You can also see the `diff` between the main and the `color-list` branch
 
