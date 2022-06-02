@@ -81,7 +81,11 @@ git push --set-upstream origin <my-branch>
 
 5. After your Pull Request is approved, click on the Merge Pull Request button.
 
-6. Go back to the repo page, click on the CONTRIBUTORS.md file in the `main` branch, notice your name is in the list of names.
+## Check Out Your Changes
+
+1. Go back to the repo page, click on the CONTRIBUTORS.md file in the `main` branch, notice your name is in the list of names.
+
+2. OPTIONAL: Send a link to the file that you added in the Slack channel :)
 
 # Thats it!
 
