@@ -37,7 +37,9 @@ git checkout -b <my-branch>
 
 2. Open the `CONTRIBUTORS.md` file and add your name to the end of the list of names.
 
-3. Commit your changes:
+3. Please do not make changes to the exercise files :)
+
+4. Commit your changes:
 
 ```
 git commit -m "add <my-name> into contributores list"
