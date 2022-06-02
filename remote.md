@@ -7,15 +7,15 @@ We will clone this repository, create a branch, make changes and commit them, pu
 
 ## Cloning the repo
 
-1. Go to the repo page (https://github.com/swimmio/git-workshop-1) and find clone url (use the HTTPS link).
+1. Go to this repo https://github.com/talkor/appleseeds-workshop and find clone url (use the HTTPS link).
 
 2. Go to your terminal and run the clone command:
 
 ```
-git clone https://github.com/swimmio/git-workshop-1.git
+git clone https://github.com/talkor/appleseeds-workshop.git
 ```
 
-3. Change directory to the `git-workshop-1` directory that was just created.
+3. Change directory to the `appleseeds-workshop` directory that was just created.
 
 4. Check out your remote url by running:
 
@@ -37,9 +37,7 @@ git checkout -b <my-branch>
 
 2. Open the `CONTRIBUTORS.md` file and add your name to the end of the list of names.
 
-3. Please do not make changes to other files in the repository (exercise files) :)
-
-4. Commit your changes:
+3. Commit your changes:
 
 ```
 git commit -m "add <my-name> into contributores list"
